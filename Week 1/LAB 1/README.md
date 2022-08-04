@@ -23,3 +23,8 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli
 Quickstart for Bash in Azure Cloud Shell
 
 https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart
+
+My Notes:
+I launched Azure Cloud Shell, created a resource group, created a virtual machine, opened port 80 for web traffic. Then I connected to the virtual machine, installed the web server in github and viewed the web server in my browser via the public ip public address- http://102.37.110.241/
+Challenges: A little challenge faced when running git bash. I got a few errors when I was trying to run the command to add the ssh key to connect to my VM. but I was able to solve it by re-watching the video and noting where I missed some steps.
+I also had problems pushing my screeshots back to my github because I cloned the wrong repository which meant that I couldn't push or make changes to an account that wasn't mine.
